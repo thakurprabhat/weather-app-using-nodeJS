@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- header links -->    
+        {{>headerlinks}}
+    <!-- header links-->    
+</head>
+<body>
+    <!-- main header -->
+    {{>header}}
+    <!-- main header -->
+
+    <!-- content -->
+    <div class="container-fluid main_menu">
+    <div class="row">
+        <div class="col-md-5 col-5 mx-auto">
+            <div class="row">
+                <div class="col-md-12 col-12 main-container align-item">
+                    <form class="col-md-12 align-content">
+                        <input class="col-md-9 form-control input-text" type="text" name="" id="cityName" placeholder="Enter your city name">
+                        <input class="col-md-3 btn btn-primary" id="submitBtn" type="submit" value="search">
+                    </form>
+                    <div class="row col-md-12 info-template p-5 mt-3">
+                        <div class="align-content">
+                            <div id="todaysDay">Day</div>
+                            <div id="todaysDate">Date</div>
+                        </div>
+                        <div class="">
+                            <div id="city">Get O/p Here</div>
+                            <div class="align-content weather-status">
+                                <p><span id="temp">0</span><sup>o</sup>C</p>
+                                <p id="tempStatus"><i class="bi bi-cloud"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- content -->
+
+    <!-- footer -->
+       {{>footer}}
+    <!-- footer -->
+    <script src="js/main.js"></script>
+</body>
+</html>

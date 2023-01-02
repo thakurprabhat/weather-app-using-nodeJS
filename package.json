@@ -1,0 +1,16 @@
+{
+  "name": "express-wheather-app",
+  "version": "1.0.0",
+  "description": "Show wheather of user enter city",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "moment": "^2.29.4"
+  }
+}
