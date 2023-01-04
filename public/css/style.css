@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sriracha', cursive;
+}
+
+:root {
+    --main-bg: #1e272e;
+    --main-color: #0097e6;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.row {
+    margin: 0;
+}
+
+.main-menu {
+    background-color: var(--main-bg);
+}
+
+.nav-item .nav-link, .navbar-collapse {
+    color: #fff;
+}
+
+.collapse.navbar-collapse, .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar> .container-fluid{
+    display: flex;
+    align-items: revert !important;
+    flex-direction: column;
+}
+
+/* .navbar-nav {
+    float: right;
+} */
+
+.navbar-toggler-icon {
+    float: left;
+}
+
+.navbar-toggler-icon{
+    background-color: #fff;
+}
+
+.main-container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container p {
+    font-size: 2rem;
+}
+
+.main-container h1 {
+    font-size: 4rem;
+    margin: 1rem 0 4rem 0;
+    text-transform: capitalize;
+}
+
+.main-container .text-color{
+    color: var(--main-color);
+}
+
+.main-container button{
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+}
+
+.main-container button:hover {
+    box-shadow: 0 8px 6px -6px var(--main-color);
+}
+
+.align-item {
+    align-items: center;
+}
+.img-fluid img {
+    max-width: 100%;
+    height: 46vh;
+    margin-top: 5rem;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--main-bg);
+    color: #fff;
+    margin-top: auto;
+}
+
+footer p {
+    line-height: 5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.align-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control.input-text{
+    width: 373px !important;
+}
+
+.info-template {
+    background-color: #fdf7f7;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: #0059ff !important; 
+}
+@media(min-width:960px) {
+    .navbar-nav {
+        float: right !important;
+    }   
+}
+
+@media(max-width:768px) {
+    .main-container {
+        height: auto;
+        margin: 3rem;
+    }
+}
